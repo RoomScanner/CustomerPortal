@@ -2,7 +2,7 @@
 
 Customer Portal is one of the two subsystems of RoomScanner, a travel accommodation booking platform built for EEET2582/ISYS3461 (Software Architecture). Customers use it to search for rooms, book and pay, buy Premium membership, follow regional events, and rate the providers they stayed with.
 
-The partner subsystem is [Provider Portal](https://github.com/RoomScanner/ProviderPortal). The two teams share an API contract repository in the RoomScanner organization.
+The partner subsystem is [Provider Portal](https://github.com/RoomScanner/ProviderPortal). The API contract between the two teams lives in [RoomScanner/Docs](https://github.com/RoomScanner/Docs).
 
 ## Team
 
@@ -40,7 +40,7 @@ The API contract is due by 18:00 on Friday of week N-2 for a submission in week 
 │   ├── design/
 │   │   ├── data-model/    # ERD and data model notes
 │   │   └── c4/            # Container and component diagrams
-│   ├── api/               # Notes on what we provide/consume (the contract itself lives in the shared repo)
+│   ├── api/               # Notes on what we provide/consume (the contract itself lives in RoomScanner/Docs)
 │   ├── meetings/
 │   │   ├── standups/      # Two stand-ups per week minimum (TW-S04)
 │   │   └── sprint-reviews/
